@@ -8,8 +8,40 @@
 .video {
     border-radius: 5px;
     float: right;
+    height: 315px;
     margin-right: 10px;
     margin-top: 10px;
+    width: 560px;
+}
+
+@media (max-width: 480px) {
+    .video {
+        float: right;
+        height: 200px;
+        margin-left: 40px;
+        width: 200px;
+    }
+    .map {
+        height: 300px !important;
+        width: 350px !important;
+    }
+    .infoContainer {
+        height: auto !important;
+        margin-left: 250px !important;
+        margin-top: 10px;
+        width: 200px !important;
+    }
+    .sub_video {
+        display: none;
+    }
+    .main_title {
+        font-size: 30px !important;
+        margin-left: 20px;
+    }
+    .linkExterno {
+        margin-left: 200px;
+        width: 300px;
+    }
 }
 
 .infoContainer {
@@ -59,6 +91,10 @@ p a {
 }
 
 .sub_header {
+    color: #4f6f96;
+}
+
+.sub_video {
     color: #4f6f96;
 }
 
